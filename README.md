@@ -1,4 +1,4 @@
-﻿# ENG
+   ENG
  
     Welcome to the game Clicker Master.
     The goal is to click on the Button 1 and Button 2 as many times as possible in a 60 second period.
@@ -11,8 +11,8 @@
     Clicking on the button Reset, time and score will reset, and input for name will become empty to enter a new name.
     Compete against yourself, your family, friends...
     Good luck and have fun.
-    
-﻿# HR
+   
+   HR
  
     Dobrodošli u igru Clicker Master.
     Cilj je kliknuti na Gumb 1 i Gumb 2 što je više puta moguće unutar perioda od 60 sekundi.
