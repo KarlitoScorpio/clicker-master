@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clicker Master</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <meta charset="UTF-8">
+        <meta name="author" content="Karlo Šimunec">
+        <meta name="description" content="Welcome to the clicking game, Clicker Master. Play against yourself, family or friends to see who is the true, Clicker Master.">
+        <meta name="keywords" content="Clicker Master, Game, Click, Clicking game, Multiplayer, Singleplayer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="ClickerMaster.css">
+    </head>
+    <body>
+        <br>
+        <h1 id="h1"></h1>
+        <div class="center_div">
+            <div class="div_buttons1">
+                <button class="button1" id="btn1" onclick="click1()" disabled></button>
+                <button class="button2" id="btn2" onclick="click2()" disabled></button>
+            </div>
+            <p class="time_txt" id="time_txt"></p>
+            <p class="time" id="time">60</p>
+            <p id="clicks_txt" class="clicks_txt"></p>
+            <p id="clicks" class="clicks">0</p>
+            <div class="div_buttons2">
+                <button class="start_button" id="start_btn" onclick="start()" disabled></button>
+                <button class="reset_button" id="reset_btn" onclick="reset()"></button>
+            </div>
+            <input type="text" id="player" class="player_name" oninput="input_name()" minlength="1" maxlength="15">
+        </div>
+        <div class="div_table">
+            <p class="table_heading" id="leaderboard"></p>
+            <table>
+                <tr>
+                    <th id="place"></th>
+                    <th id="name"></th>
+                    <th id="score"></th>
+                </tr>
+            </table>
+            <div class="table_data">
+                <table id="table" class="table"></table>
+            </div>
+        </div>
+        <button class="eng" id="eng" onclick="eng_func()" selected>ENG</button>
+        <button class="hr" id="hr" onclick="hr_func()">HR</button>
+        <div class="description_div">
+            <p class="description_heading" id="description_txt"></p>
+            <ul>
+                <li id="desc_txt1"></li>
+                <br>
+                <li id="desc_txt2"></li>
+                <br>
+                <li id="desc_txt3"></li>
+                <ul>
+                    <li id="desc_txt4"></li>
+                    <li id="desc_txt5"></li>
+                </ul>
+                <br>
+                <li id="desc_txt6"></li>
+                <br>  
+                <li id="desc_txt7"></li>
+                <br>
+                <li id="desc_txt8"></li>
+                <br>
+                <li id="desc_txt9"></li>
+                <br>
+                <li id="desc_txt10"></li>
+                <br>
+                <li id="desc_txt11"></li>
+            </ul>
+        </div>
+        <p class="footer" id="footer_txt"></p>
+        <script type="text/javascript" src="ClickerMaster.js" defer></script>
+    </body>
+</html>
